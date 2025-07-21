@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="r.png"/>
+  <img src="R.png"/>
 </p>
 <h1 align="center">Garbage Detector: Real-Time Waste Detection & Classification System</h1>
 
