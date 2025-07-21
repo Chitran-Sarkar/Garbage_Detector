@@ -1,0 +1,8 @@
+0 Nothing
+1 Bottle
+2 Disinfectant
+3 Phone
+4 Apple
+5 Eggplant
+6 Ceramic Bowl
+7 Pen Bag
