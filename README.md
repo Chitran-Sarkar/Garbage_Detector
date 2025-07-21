@@ -1,6 +1,6 @@
-<h2 align="center" >
- ♻️
-</h2>
+<p align="center">
+  <img src="r.png"/>
+</p>
 <h1 align="center">Garbage Detector: Real-Time Waste Detection & Classification System</h1>
 
 A real-time Waste Detection & Classification System that combines cutting-edge computer vision, deep learning ensembles, and Arduino-driven hardware to automatically sort trash into the correct bins — hands-free.
