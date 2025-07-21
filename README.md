@@ -4,8 +4,8 @@ A real-time Waste Detection & Classification System that combines cutting-edge c
 
 🚀 Key Highlights
 
-🔍 Real-time detection & classification with >95% accuracy
-🧠 Supports Keras, TensorFlow, ONNX, and TFLite models — single or ensemble
+🔍 Real-time detection & classification with >95% accuracy<br>
+🧠 Supports Keras, TensorFlow, ONNX, and TFLite models — single or ensemble<br>
 🧪 Built for Windows 11 with GPU + Intel oneAPI acceleration
 🎛️ Servo motors & ultrasonic sensor for automatic sorting
 🎨 Sleek OpenCV-powered GUI with remote streaming
