@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Waste Sorting UI - Remote Viewer</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 20px;
+            background: linear-gradient(600deg, #247e6f, #36be9c, #00ff9d);
+            background-size: 400% 400%;
+            animation: gradientBG 8s ease-in-out infinite;
+            font-family: Arial, sans-serif;
+        }
+        @keyframes gradientBG {
+            0% {
+                background-position: 0% 50%;
+            }
+            50% {
+                background-position: 100% 50%;
+            }
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+        .container {
+            max-width: 2700px;
+            margin: 0 auto;
+            background: linear-gradient(135deg, #223aa8 0%, #002fff 100%);
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #fffcfc;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .video-container {
+            width: 100%;
+            max-width: 2500px;
+            margin: 0 auto;
+            text-align: center;
+        }
+        #videoFeed {
+            width: 100%;
+            border-radius: 4px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .status {
+            text-align: center;
+            margin-top: 10px;
+            color: #a3a2a2;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Waste Sorting UI - Remote Viewer</h1>
+        <div class="video-container">
+            <img id="videoFeed" src="{{ url_for('video_feed') }}" alt="Video Feed">
+            <div class="status">Streaming from waste sorting system</div>
+        </div>
+    </div>
+</body>
+</html>
