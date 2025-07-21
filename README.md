@@ -4,7 +4,7 @@ A real-time Waste Detection & Classification System that combines cutting-edge c
 
 ![Game Screenshot](project-6.png)
 
-🚀 Key Highlights
+<h3>🚀 Key Highlights</h3>
 
 🔍 Real-time detection & classification with >95% accuracy<br>
 🧠 Supports Keras, TensorFlow, ONNX, and TFLite models — single or ensemble<br>
